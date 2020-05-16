@@ -40,11 +40,11 @@ public class PokemonController extends HttpServlet {
 			// Create the object for Bulbasaur class and use getters to retrieve the values	
 		/*	  
 			msg = "<center>" + //getter + "  #" + //getter;
-			request.setAttribute("message2",//getter);
-			request.setAttribute("character2", //getter);
-			request.setAttribute("type2",//getter;
-			request.setAttribute("evolution2", //getter);
-			request.setAttribute("baseExp2", //getter);*/
+			request.setAttribute("message1",//getter);
+			request.setAttribute("character1", //getter);
+			request.setAttribute("type1",//getter;
+			request.setAttribute("evolution1", //getter);
+			request.setAttribute("baseExp1", //getter);*/
 		}
 
 		if (value2 != null) {
@@ -65,22 +65,22 @@ public class PokemonController extends HttpServlet {
 
 			/*	  
 			msg = "<center>" + //getter + "  #" + //getter;
-			request.setAttribute("message2",//getter);
-			request.setAttribute("character2", //getter);
-			request.setAttribute("type2",//getter;
-			request.setAttribute("evolution2", //getter);
-			request.setAttribute("baseExp2", //getter);*/
+			request.setAttribute("message3",//getter);
+			request.setAttribute("character3", //getter);
+			request.setAttribute("type3",//getter;
+			request.setAttribute("evolution3", //getter);
+			request.setAttribute("baseExp3", //getter);*/
 		}
 		if (value4 != null) {
 
 			// Create the object for Mew class and use getters to retrieve the values	
 			/*	  
 			msg = "<center>" + //getter + "  #" + //getter;
-			request.setAttribute("message2",//getter);
-			request.setAttribute("character2", //getter);
-			request.setAttribute("type2",//getter;
-			request.setAttribute("evolution2", //getter);
-			request.setAttribute("baseExp2", //getter);*/
+			request.setAttribute("message4",//getter);
+			request.setAttribute("character4", //getter);
+			request.setAttribute("type4",//getter;
+			request.setAttribute("evolution4", //getter);
+			request.setAttribute("baseExp4", //getter);*/
 		}
 
 		if (value5 != null) {
@@ -89,11 +89,11 @@ public class PokemonController extends HttpServlet {
 /*getter*/
 			/*	  
 			msg = "<center>" + //getter + "  #" + //getter;
-			request.setAttribute("message2",//getter);
-			request.setAttribute("character2", //getter);
-			request.setAttribute("type2",//getter;
-			request.setAttribute("evolution2", //getter);
-			request.setAttribute("baseExp2", //getter);*/
+			request.setAttribute("message5",//getter);
+			request.setAttribute("character5", //getter);
+			request.setAttribute("type5",//getter;
+			request.setAttribute("evolution5", //getter);
+			request.setAttribute("baseExp5", //getter);*/
 
 		}
 
