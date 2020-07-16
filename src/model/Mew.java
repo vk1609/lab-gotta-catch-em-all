@@ -18,3 +18,43 @@ package model;
 //type = "PSYCHIC"
 //evolution = "NONE"
 //baseExp = "64" 
+public class Mew extends Pokemon{
+	
+	String characteristics ;
+	String type;
+	String evolution;
+	int baseExp;
+	public Mew(String pokemonName, int pokemonNumber, String characteristics, String type, String evolution,
+			int i) {
+		super(pokemonName, pokemonNumber);
+		this.characteristics = characteristics;
+		this.type = type;
+		this.evolution = evolution;
+		this.baseExp = i;
+	}
+	public String getCharacteristics() {
+		return characteristics;
+	}
+	public void setCharacteristics(String characteristics) {
+		this.characteristics = characteristics;
+	}
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public String getEvolution() {
+		return evolution;
+	}
+	public void setEvolution(String evolution) {
+		this.evolution = evolution;
+	}
+	public int getBaseExp() {
+		return baseExp;
+	}
+	public void setBaseExp(int baseExp) {
+		this.baseExp = baseExp;
+	}
+	
+}
